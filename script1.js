@@ -4,11 +4,51 @@ const secondaryPhone = "0219131568";
 
 // Only change below this line
 
-const primaryValid = typeof number == primaryPhone; // needs to be false
-const secondaryValid = typeof number == secondaryPhone; //needs to be true
+const primaryValid = typeof NaN == primaryPhone;
+const secondaryValid = typeof string === secondaryPhone;
 
-console.log("Primary phone is valid numerical string:", primaryValid);
-console.log("Secondary phone is valid numerical string:", secondaryValid);
 
-// turn the string into a number parse int
-// is else
+    if (isNaN(primaryPhone)) {
+    console.log("Primary phone is a valid numerical string:", primaryValid);
+}
+
+function checkString(string){
+    if (typeof string(secondaryPhone) === "string") {
+        console.log(!isNaN(string));
+    } 
+}
+
+
+// parseInt(secondaryPhone)
+// if (typeof primaryValid === NaN) {
+//     console.log("Primary phone is not a valid numerical string:", primaryValid);
+// }
+
+// if (typeof secondaryValid === number) {
+//     console.log("Secondary phone is valid numerical string:", secondaryValid);
+// }
+
+
+// console.log("Primary phone is valid numerical string:", primaryValid);
+// console.log("Secondary phone is valid numerical string:", secondaryValid);
+
+// if(isNaN(primaryPhone)){
+//     console.log("Primary phone is valid numerical string:", primaryValid);
+// } 
+
+// if(typeof secondaryPhone === ){
+//     console.log("Secondary phone is valid numerical string:", secondaryValid);   
+// }
+
+// if(!isNaN(secondaryPhone)) {
+//     console.log("Secondary phone is valid numerical string:", secondaryValid);   
+// }
+
+
+//   if(typeof primaryPhone === "string"){
+//     console.log("Primary phone is valid numerical string:", primaryValid);
+//   } 
+//   if (typeof secondaryPhone === 'String') {
+//       console.log("Primary phone is valid numerical string:", secondaryValid);
+//   }
+
