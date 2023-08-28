@@ -1,20 +1,20 @@
-const primaryPhone = "O748105141";
-const secondaryPhone = "0219131568";
+// const primaryPhone = "O748105141";
+// const secondaryPhone = "0219131568";
 
-// Only change below this line
+// // Only change below this line
 
-function isNumeric(str) {
-    if (typeof str !== "string") {
-        return false;
-    }
-    return !isNaN(str) && !isNaN(parseFloat(str));
-}
+// function isNumeric(str) {
+//     if (typeof str !== "string") {
+//         return false;
+//     }
+//     return !isNaN(str) && !isNaN(parseFloat(str));
+// }
 
-const primaryValid = isNumeric(primaryPhone);
-const secondaryValid = isNumeric(secondaryPhone);
+// const primaryValid = isNumeric(primaryPhone);
+// const secondaryValid = isNumeric(secondaryPhone);
 
-console.log("Primary phone is valid numerical string:", primaryValid);
-console.log("Secondary phone is valid numerical string:", secondaryValid);
+// console.log("Primary phone is valid numerical string:", primaryValid);
+// console.log("Secondary phone is valid numerical string:", secondaryValid);
 
 // const primaryValid = typeof NaN == primaryPhone;
 // const secondaryValid = typeof string === secondaryPhone;
